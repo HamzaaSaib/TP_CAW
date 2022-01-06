@@ -1,0 +1,21 @@
+@keyframes dor{
+    from{
+     transform:  rotate(0deg);
+    }
+    to{
+     transform:  rotate(360deg);
+  
+  }
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  
+}
+  .action {
+    animation-name: dor;
+    animation-duration: 1s;
+  }
+  
+  
+  

@@ -1,0 +1,31 @@
+/* .container {
+   display: flex;
+    flex-direction: column;
+     align-items: center; 
+    } */
+    @keyframes dor{
+      from{
+       transform:  rotate(0deg);
+      }
+      to{
+       transform:  rotate(360deg);
+    
+    }
+    }
+    h4 {
+      animation-name: dor;
+      animation-duration: 1s;
+    }
+    
+    body {
+      background-image: url("http://3.bp.blogspot.com/-7HdIP5AGgX4/Vd9214gnzjI/AAAAAAAASfw/BfnsM8lRSeQ/s1600/black-dice-oh-the-white-background-wallpaper-d-6070-wallpaper.jpg");
+      width: 600px;
+      align-items: center; 
+      text-align: center;
+      /* display: flex; */
+      height: 1000px;  
+       background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      margin-left: 300px;
+     } 
